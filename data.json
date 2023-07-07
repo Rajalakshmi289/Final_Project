@@ -1,0 +1,264 @@
+{"intents": [
+    {
+     "tag":"greeting",
+     "patterns":[
+        "Hi",
+        "Is anyone there?",
+        "Hello",
+        "Hi There?",
+        "Good day",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+
+     ],
+     "responses":[
+        "Hello, thanks for visiting",
+        "Good to see you!",
+        "Hi, how can I help?",
+        "Hi, How may I help you?",
+        "Hello! How are you feeling today?",
+        "Hi there! How can I help you?",
+        "Greetings! What brings you here today?"
+     ],
+     "context_set":""
+  },
+  {
+    "tag": "wellness-check",
+    "patterns": [
+         "How are you?",
+         "How are you feeling?",
+         "How's your day going?",
+         "Are you doing okay?",
+         "How do you do?"
+    ],
+    "responses": [
+          "I'm doing well, thanks for asking!",
+          "I'm feeling pretty good today. How about you?",
+          "I'm doing okay. How can I assist you today?"]
+  },
+  {
+     "tag":"goodbye",
+     "patterns":[
+        "Bye",
+        "See you later",
+        "Bubye Take Care!",
+        "Goodbye",
+        "Take care",
+        "Have a nice day"
+     ],
+     "responses":[
+        "See you later, thanks for reaching out",
+        "Have a nice day",
+        "Bye! Come back again for any queries!",
+        "Goodbye! Take care of yourself.",
+        "It was nice talking to you. Goodbye!",
+        "See you soon!"
+     ]
+  },
+
+  {
+     "tag": "positive_feelings",
+      "patterns": [
+          "I'm feeling great",
+          "I'm happy",
+          "I'm excited",
+          "I'm satisfied",
+          "I'm content"
+      ],
+      "responses": [
+          "That's great to hear! Anything you want to share?",
+          "Awesome, glad to know that. What's making you feel that way?",
+          "Great to hear that you're feeling positive. What's contributing to your happiness?",
+          "I'm happy to hear that you're satisfied. Anything you want to talk about?",
+          "Glad to know that you're content. Anything you'd like to share?"
+      ]
+  },
+  {
+    "tag": "affirmation",
+    "patterns": [
+          "Yes",
+          "Sure",
+          "Absolutely",
+          "Of course"
+    ],
+    "responses": ["Great!", "I'm glad to hear that.", "That's fantastic!"]
+  },
+  {
+    "tag": "negation",
+    "patterns": ["No", "Not really", "I'm not sure"],
+    "responses": ["I see. Can you tell me more about how you're feeling?", "Okay. Is there anything you'd like to talk about?", "Understood. Let's focus on something else then."]
+  },
+  {
+    "tag": "gratitude",
+    "patterns": ["Thank you", "Thanks", "Appreciate it", "Much obliged"],
+    "responses": ["You're welcome! It's my pleasure to help.", "No problem. I'm here for you.", "Thank you for sharing. It takes courage to open up."]
+  },
+  {
+    "tag": "help",
+    "patterns": ["Can you help me?", "What can you do?", "How does therapy work?"],
+    "responses": ["Of course! What do you need help with?", "I can help you explore your thoughts and feelings. What's on your mind?", "Therapy is a process where you work with a trained professional to help you understand and navigate your emotions. Is there anything specific you'd like to know?"]
+  },
+  {
+    "tag": "self-esteem",
+    "patterns": ["I don't feel good about myself", "I hate myself", "I'm not good enough", "Why am I so worthless?", "I constantly compare myself to others","I have low self-confidence"],
+    "responses": ["It sounds like you're struggling with your self-esteem. Can you tell me more about how you're feeling?", "It's okay to feel that way sometimes. What makes you feel that way?", "Many people struggle with self-esteem. You're not alone. What are some things you're good at?", "It's important to recognize your self-worth. Let's explore ways to improve your self-esteem and develop a positive self-image. Some of the prevention strategies include, \n1. Practice self-care activities, such as exercise and relaxation techniques\n2. Challenge negative thoughts and beliefs about oneself\n3. Surround oneself with positive and supportive people\n4. Set achievable goals and celebrate accomplishments"]
+  },
+  {
+    "tag": "depression",
+    "patterns": ["Why am I so worthless?", "I feel sad all the time","I have no energy","I don't enjoy anything anymore", "How do I handle depression?"],
+    "responses": ["It sounds like you may be experiencing depression. Can you tell me more about how you're feeling?", "Depression can be a difficult experience. What are some things that have helped you feel better in the past?", "Many people struggle with depression. You're not alone. What are some things you're looking forward to?",
+      "It sounds like you may be experiencing depression. Lets work together to identify the underlying causes and develop a treatment plan. Some of the prevention strategies include, \n1. Get regular exercise and maintain a healthy lifestyle\n2. Practice relaxation techniques, such as deep breathing and meditation\n3. Seek support from a therapist or support group\n4.Identify and challenge negative thoughts and replace them with positive ones"]
+  },
+  {
+      "tag": "negative_feelings",
+      "patterns": [
+          "I'm feeling sad",
+          "I'm angry",
+          "I'm frustrated",
+          "I'm disappointed",
+          "I'm anxious"
+         ],
+      "responses": [
+          "I'm sorry to hear that. Want to talk about it?",
+          "That's tough. Do you want to share what's going on?",
+          "I'm here to listen. Would you like to talk about it?",
+          "I'm sorry to hear that you're feeling that way. Would you like some support?",
+          "That sounds challenging. How can I help you feel better?"
+        ]
+  },
+  {
+    "tag": "mental_health",
+    "patterns": [
+          "How do I deal with stress?",
+          "How can I manage anxiety?",
+          "What can I do to improve my mental health?",
+          "How can I reduce depression?",
+          "How can I improve my self-esteem?"
+        ],
+    "responses": [
+          "There are many ways to manage stress, would you like some tips?",
+          "There are several ways to cope with anxiety, do you want to learn more?",
+          "Improving mental health involves many things, would you like some guidance?",
+          "There are many ways to reduce depression, would you like some advice?",
+          "Improving self"
+        ]
+  },
+  {
+     "tag":"thanks",
+     "patterns":[
+        "Thanks",
+        "Thanks much",
+        "Thank you",
+        "That's helpful"
+     ],
+     "responses":[
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+     ]
+  },
+  {"tag": "anxiety",
+   "patterns": ["I feel anxious", "I have panic attacks", "I can't stop worrying", "Why am I so anxious?"],
+   "responses": ["Anxiety can be tough to deal with. Can you tell me more about what's been causing you to feel anxious?", "It's okay to feel anxious sometimes. What are some things that help you calm down?", "Anxiety is a common experience. What are some things that have helped you cope with anxiety in the past?","I understand that anxiety can be overwhelming. Let's talk about what's causing your anxiety and explore coping strategies. Some of the prevention strategies include, \n1. Practice relaxation techniques, such as deep breathing and meditation\n2.Challenge negative thoughts and replace them with positive ones\n3. Get regular exercise and maintain a healthy lifestyle\n4. Seek support from a therapist or support group"],
+   "context_set": ""
+  },
+
+  {"tag": "Trauma",
+   "patterns": ["I have experienced a traumatic event","I have nightmares and flashbacks","I feel disconnected"],
+   "responses": ["It's understandable to feel overwhelmed after a traumatic experience. Let's explore ways to manage your symptoms and work towards healing. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Practice self-care activities, such as exercise and relaxation techniques\n3. Create a safety plan for when traumatic memories arise\n4. Consider eye movement desensitization and reprocessing (EMDR) therapy, if appropriate"],
+   "context_set": ""
+  },
+
+  {"tag": "Relationship Issues",
+   "patterns": ["I'm having problems in my relationship","I feel lonely","I don't know how to communicate effectively"],
+   "responses": ["Relationships can be challenging. Let's talk about your concerns and develop strategies to improve communication and strengthen your relationships. Some of the prevention strategies include, \n 1. Seek support from a therapist or couples counselor\n2. Practice active listening and communication skills\n3. Set boundaries and practice assertiveness\n4. Identify and challenge negative thought patterns about relationships"],
+   "context_set": ""
+  },
+
+  {"tag": "Substance Abuse",
+   "patterns": ["I'm addicted to drugs/alcohol","I can't stop drinking/using","I feel like I need it to cope"],
+   "responses": ["Substance abuse can have a negative impact on your life. Let's discuss treatment options and develop a plan for recovery. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Consider medication-assisted treatment, if appropriate\n3. Create a support system of family and friends\n4. Practice self-care activities, such as exercise and relaxation techniques"],
+   "context_set": ""
+  },
+
+  {"tag": "Eating Disorders",
+   "patterns": ["I have an unhealthy relationship with food","I'm constantly dieting","I binge and purge"],
+   "responses": ["Eating disorders can be serious and require professional help. Let's talk about your concern and develop a treatment plan. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Learn about and practice mindful eating\n3. Challenge negative thoughts and beliefs about food and body image\n4. Avoid dieting and restrictive eating patterns"],
+   "context_set": ""
+  },
+
+  {"tag": "Anger Management",
+   "patterns": ["I have a short fuse","I often feel angry","I don't know how to control my temper"],
+   "responses": ["It's important to learn how to manage your anger in a healthy way. Let's work together to develop strategies to cope with anger and improve communication. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Learn and practice anger management techniques, such as deep breathing and cognitive restructuring\n3. Identify and challenge negative thoughts and beliefs about anger\n4. Develop healthy coping mechanisms for stress and emotions"],
+   "context_set": ""
+  },
+
+  {"tag": "Sleep Issues",
+   "patterns": ["I have trouble falling asleep","I wake up frequently during the night","I feel tired all the time"],
+   "responses": ["Getting enough sleep is important for your mental health. Let's talk about ways to improve your sleep habits and develop a bedtime routine. Some of the prevention strategies include, \n1. Develop a regular sleep routine and stick to it\n2. Create a comfortable sleep environment\n3. Practice relaxation techniques before bed\n4. Limit caffeine and alcohol consumption, particularly before bedtime"],
+   "context_set": ""
+  },
+
+  {"tag": "Phobias",
+   "patterns": ["I have a fear of heights/enclosed spaces/spiders","I avoid certain situations because of my fears"],
+   "responses": ["Phobias can be limiting and affect your daily life. Let's explore ways to overcome your fears and develop coping mechanisms. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Consider exposure therapy, if appropriate\n3. Practice relaxation techniques to manage anxiety symptoms\n4. Challenge negative thoughts and beliefs about the feared object or situation"],
+   "context_set": ""
+  },
+
+  {"tag": "Obsessive-Compulsive Disorder (OCD)",
+   "patterns": ["I have repetitive thoughts or behaviours","I feel compelled to do certain things a certain way","I can't stop doing certain things"],
+   "responses": ["OCD can be challenging to manage, but with the right treatment, it can be controlled. Let's work together to develop strategies to cope with your OCD symptoms. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Learn and practice exposure and response prevention (ERP) techniques\n3. Challenge negative thoughts and beliefs about OCD\n4. Consider medication, if appropriate"],
+   "context_set": ""
+  },
+
+  {"tag": "Bipolar Disorder",
+   "patterns": ["I experience extreme mood swings","I feel manic or hypomanit at times","I feel depressed at other times"],
+   "responses": ["Bipolar disorder can be difficult to manage, but there are effective treatments available. Let's work together to identify the best approach for your symptoms. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Develop healthy lifestyle habits, such as regular exercise and healthy eating\n3. Practice relaxation techniques to manage stress\n4. Consider medication, if appropriate"],
+   "context_set": ""
+  },
+
+  {"tag": "Schizophrenia",
+   "patterns": ["I hear voices or see things that aren't there","I feel disconnected from reality","I have difficulty thinking or speaking clearly"],
+   "responses": ["Schizophrenia can be a challenging condition, but with the right treatment, you can lead a fulfilling life. Let's work together to develop a treatment plan. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Consider medication, if appropriate\n3. Develop a support system of family and friends\n4. Practice self-care activities, such as exercise and relaxation techniques"],
+   "context_set": ""
+  },
+
+  {"tag": "Post-Traumatic Stress Disorder (PTSD)",
+   "patterns": ["I have nightmares or flashbacks of a traumatic event","I feel anxious or hypervigilant","I feel detached or numb"],
+   "responses": ["PTSD can be debilitating, but with the right treatment, it is possible to overcome. Let's explore strategies to manage your symptoms and work towards healing. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Practice self-care activities, such as exercise and relaxation techniques\n3. Create a safety plan for when traumatic memories arise\n4. Consider cognitive processing therapy (CPT) or prolonged exposure therapy (PE), if appropriate"],
+   "context_set": ""
+  },
+
+  {"tag": "Stress Management",
+   "patterns": ["I feel stressed all the time","I have trouble relaxing","I feel overwhelmed"],
+   "responses": ["Stress can have a negative impact on your mental and physical health. Let's explore ways to manage your stress levels and develop coping strategies. Some of the prevention strategies include, \n1. Identify and avoid stress triggers where possible\n2. Practice relaxation techniques such as deep breathing, meditation, and yoga\n3. Maintain a healthy lifestyle by getting regular exercise, eating a balanced diet, and getting enough sleep\n4. Seek support from a therapist or support group if stress levels become unmanageable."],
+   "context_set": ""
+  },
+
+  {"tag": "Grief and Loss",
+   "patterns": ["I have lost a loved one","I am struggling to cope with my grief","I feel like I will never be able to move on"],
+   "responses": ["Grief can be difficult and painful process, but it is possible to heal. Let's explore ways to manage your grief and find support during this challenging time. Some of the prevention strategies include, \n1. Allow yourself to experience and process the emotions associated with grief and loss\n2. Seek support from friends, family, or a support group\n3. Create a plan to remember and honor the person or thing that was lost\n4. Consider seeking support from a therapist if feelings of grief and loss become overwhelming or interfere with daily life."],
+   "context_set": ""
+  },
+
+  {"tag": "Personality Disorders",
+   "patterns": ["I have difficulty forming relationships","I feel like I have a distorted sense of self","I struggle with emotional regualtion"],
+   "responses": ["Personality disorders can be challenging to manage, but with the right treatment, it is possible to improve your relationships and quality of life. Let's work together to develop a treatment plan. Some of the prevention strategies include, \n1. Seek support from a therapist or support group\n2. Learn and practice mindfulness and emotional regulation techniques\n3. Identify and challenge negative thought patterns\n4. Develop and maintain a support system of friends and family."],
+   "context_set": ""
+  },
+
+  {"tag": "Suicide Prevention",
+   "patterns": ["I feel like I want to die","I have suicidal thoughts or tendencies","I have attempted suicide in the past"],
+   "responses": ["If you are feeling suicidal, it is important to seek help immediately. Let's work together to develop a safety plan and connect you with resources for support. Some of the prevention strategies include, \n1. Take any threats of suicide seriously and seek immediate help\n2. Identify and address any mental health conditions or substance abuse issues\n3. Create and maintain a supportive environment that includes friends and family\n4. Learn and practice stress management techniques such as relaxation and mindfulness."],
+   "context_set": ""
+  },
+
+  {"tag": "feedback",
+   "patterns": ["That wasn't helpful","Suggest me some other ways"],
+   "responses": ["Consult a nearby physician. Maybe that could help you!"],
+   "context_set": ""
+  }
+]
+}
